@@ -4,7 +4,7 @@ function writeCards(array,event){
         myArray[i]=`Thank you, ${array[i]}, for the wonderful ${event} gift!`;}
 return myArray;
     }
-console.log(writeCards(["moz","james"],"birthday"));
+
 
 function countDown(n){
     while( n >=0) {
